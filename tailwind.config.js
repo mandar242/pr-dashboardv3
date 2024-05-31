@@ -1,10 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   // prefix: 'tw-',
-  corePlugins: {
+  corePlugins: { // needed to avoid error when using mui
     preflight: false,
   },
-  important: '#root',
+  important: '#root', // needed to avoid error when using mui
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
