@@ -19,7 +19,7 @@ function NavigationBar() {
   };
 
   return (
-    <div className='flex flex-col border text-white w-1/6 h-screen bg-[#344767]'>
+    <div className='border text-white w-1/6 h-screen p-2 bg-[#344767]'>
       <div className='flex flex-col py-20'>
         <div className='mt-10 flex flex-col space-y-8'>
           {navLinks.map((item, index) => (

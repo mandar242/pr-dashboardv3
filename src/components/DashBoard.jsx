@@ -9,7 +9,7 @@ function DashBoard({ activeCollection }) {
     // top navbar
     <div className='bg-[#f0eeeb] h-screen w-screen-2'>
     <div className='flex flex-col py-20 px-14'>
-      <div className="w-full bg-[#344767] py-4 px-6 flex items-center justify-between fixed top-0 left-0 z-10">
+      <div className=" ml-2 w-full bg-[#344767] py-4 px-3 flex items-center justify-between fixed top-0 left-0 z-10">
         <div className="flex items-center">
           <img src={Logo} alt="Logo" width={40} />
           <h1 className="text-xl text-white ml-2">Cloud Content PR Tracker</h1>
